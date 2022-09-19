@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.mydiv img{
+    height: 250px;
+    width: 250px;
+    margin-left: 25px;
+    border: 1px solid black;
+}
