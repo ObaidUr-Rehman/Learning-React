@@ -1,6 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
+import App from "./App";
+
+
+// import "./index.css";
 
 
 // ReactDOM.render(<><h1>Obaid Ur Rehman</h1>
@@ -28,37 +31,45 @@ import "./index.css";
 // <h1>Today Dateeee is {edate}</h1>
 // </>,document.getElementById("root"));
 
-const shoesimg = "https://api.lorem.space/image/shoes?w=150&h=150";
-const watchimg = "https://api.lorem.space/image/watch?w=150&h=150";
-const pizzaimg = "https://api.lorem.space/image/pizza?w=150&h=150";
-const gitLink  = "https://github.com/ObaidUr-Rehman?tab=overview&from=2022-09-01&to=2022-09-18";
+// const shoesimg = "https://api.lorem.space/image/shoes?w=150&h=150";
+// const watchimg = "https://api.lorem.space/image/watch?w=150&h=150";
+// const pizzaimg = "https://api.lorem.space/image/pizza?w=150&h=150";
+// const gitLink  = "https://github.com/ObaidUr-Rehman?tab=overview&from=2022-09-01&to=2022-09-18";
 
-const heading = {
-  textAlign: "center",
-  color: "lightblue",
-  textShadow: "1px 2px brown",
-  display: "block",
-  fontWeight: "bold",
-  margin: "50px 0px"
-}
+// const heading = {
+//   textAlign: "center",
+//   color: "lightblue",
+//   textShadow: "1px 2px brown",
+//   display: "block",
+//   fontWeight: "bold",
+//   margin: "50px 0px"
+// }
 
-const div = {
-  display:"flex",
-  justifyContent:"center",
-  alignItems:"center"
-}
+// const div = {
+//   display:"flex",
+//   justifyContent:"center",
+//   alignItems:"center"
+// }
 
 
 
-ReactDOM.render(<><h1 style={heading}>BEAUTIFUL IMAGES</h1>
-<p>
-  <div style={div} className="mydiv">
-  <img src={shoesimg} alt="shoesimage"/>
-  <img src={watchimg} alt="watchimage"/>
-  <a href={gitLink} target="_mygithub">
-  <img src={pizzaimg} alt="pizzaimage"/>
-  </a>
-  </div>
-</p>
-  </>,document.getElementById("root"));
+// ReactDOM.render(<><h1 style={heading}>BEAUTIFUL IMAGES</h1>
+// <p>
+//   <div style={div} className="mydiv">
+//   <img src={shoesimg} alt="shoesimage"/>
+//   <img src={watchimg} alt="watchimage"/>
+//   <a href={gitLink} target="_mygithub">
+//   <img src={pizzaimg} alt="pizzaimage"/>
+//   </a>
+//   </div>
+// </p>
+//   </>,document.getElementById("root"));
 
+
+
+// CLASS COMPONENTSSS
+
+
+ReactDOM.render(
+     <App/>,
+     document.getElementById("root"));
